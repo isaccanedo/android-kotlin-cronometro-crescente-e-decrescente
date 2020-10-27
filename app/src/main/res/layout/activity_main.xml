@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chronometer Example (Kotlin)"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Isac Canedo de Almeida" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start (Count Up)" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <Chronometer
+        android:id="@+id/chronometerDn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:countDown="true"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startDn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start (Count Down)" />
+
+    <Button
+        android:id="@+id/stopDn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/resetDn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+</LinearLayout>
